@@ -40,4 +40,4 @@ A GUI(using Tkinter) based approach to fetch YouTube video Titles for a selected
 
 = Limitations:
 - Titles contains hashtags, and titles are also in other languages.
-- May be a particular category not be supported in some region
+- May be a particular category not be supported in some region (i.e. 'Region=IN', 'Category=Short Movies' gives no titles, while 'Region=IN', 'Category=Comedy' provides titles)
