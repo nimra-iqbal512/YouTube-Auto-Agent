@@ -34,3 +34,10 @@ It works fine among all approache used until now.
 
 = Enhancements:
 - The user should also be given the option of selecting the region
+
+== 5) gui(idea_agent.py)
+A GUI(using Tkinter) based approach to fetch YouTube video Titles for a selected region and category.
+
+= Limitations:
+- Titles contains hashtags, and titles are also in other languages.
+- May be a particular category not be supported in some region
