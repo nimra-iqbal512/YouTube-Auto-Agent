@@ -1,0 +1,36 @@
+== 1)IdeaGenerationAgent(Self Effort).ipynb
+In this file, two approaches are used to fetch titles from YouTube
+1) It displays trending youTube Video Titles only for a specific region
+2) It displays trending youTube Video Titles, based on both specific region and category
+
+= Note: We can get idea of regions and categories from 'region.jpeg'(PK for Pakistan, IN for India) and 'category_id.jpeg'(10 for Music, 17 for SPorts).
+
+= Enhancements:
+- Its difficult to memorize category_id, the best way is to use category_name.
+- Take both(region and category_name) from user.
+
+
+== 2) Guide-Idea-Agent.docx
+A complete guide to take category from user, and fetch video titles
+
+= Enhancements:
+- Video Titles should only be in English
+- Titles should not contain any hashtags.
+- It only asks user for category_name, however we can also ask region from user.
+
+
+== 3) idea_agent.ipynb
+In this file, first the user is asked to enter the region, and then enter the category. Video titles are displayed based on the user's entered region and category.
+
+= Limitations:
+- Categories are hard coded. Its possible that user may want any other of these categories.
+- Its also possible that category supported for a region, may not be supported in other region.
+
+
+== 4) idea_agent.py
+Code in OOP design.
+Displays youTube video titles based on a specific category entered by user. The titles are in English, and contains no hashtags. 
+It works fine among all approache used until now.
+
+= Enhancements:
+- The user should also be given the option of selecting the region
