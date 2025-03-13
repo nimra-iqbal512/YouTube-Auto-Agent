@@ -1,0 +1,40 @@
+== 1)HuggingFaceTransformers.ipynb
+A very basic intro to use models from HuggingFace
+
+
+== 2)youtube_auto_agent_flowchart.png
+Pictorial representation of the task to be done in agent 2
+
+
+== 3)ScriptGenerating(gpt2).ipynb
+A simple script generated using model 'gpt2' from HuggingFace.
+
+= Limitations: Model not generate any good script
+
+
+== 4)ScriptGenerating(falcon-7b-instruct).ipynb
+A script generated using model 'falcon-7b-instruct' from HuggingFace. The generated script is saved in a file 'youyube_script.txt'.
+
+= Note: Using Colab (runtime type: T4 GPU). Not using Hugging Face API in Colab. However, Haugging Face API requrired when working in local environment (VS Code). Will see next the usage of Hugging Face API
+
+
+== 5)script_generating_agent.ipynb
+Script is generated using HuggingFace API in VS code. Model used: falcon-7b-instruct
+The generated script is saved in a file 'youtube_script.txt'
+
+= Limitations: Hugging Face API key may get expired. 
+= Alternate approach: Use GROQ API
+
+
+== 6)./FirstDeliver (idea_agent.py, main.py, script_agent.py, Demo1.webm)
+Fully Functional Deliverable using Hugging Face API
+
+
+== 7)script_generation(groqAPI_deepseek).ipynb
+Generate script on a topic using deepseek model 
+
+= Note: using GROQ API key in Colab
+
+
+== 8)./SecondDeliverable (idea_agent.py, main.py, script_agent2.py, Demo2.webm)
+Fully Functional Deliverable using GROQ API
