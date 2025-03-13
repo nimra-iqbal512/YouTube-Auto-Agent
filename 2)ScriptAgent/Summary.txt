@@ -38,3 +38,6 @@ Generate script on a topic using deepseek model
 
 == 8)./SecondDeliverable (idea_agent.py, main.py, script_agent2.py, Demo2.webm)
 Fully Functional Deliverable using GROQ API
+
+== 9)./arch (idea_agent.py, main.py, script_agent.py)
+Coding files provided by instructor
